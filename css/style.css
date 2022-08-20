@@ -1,3 +1,22 @@
+@font-face {
+    font-family: Cyberverse;
+    src: url('/css/fonts/Cyberverse.otf');
+}
 * {
     box-sizing: border-box;
+    margin: auto;
+}
+body {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+}
+.clockBox {
+    flex-flow: column;
+    color: #2fc6f0;
+    font-family: Cyberverse, Arial, Helvetica, sans-serif;
+    font-size: 15vw;
+    text-shadow: rgba(47,198,240, 90) 0 0 10vw;
+    text-align: center;
+    padding: auto;
 }
